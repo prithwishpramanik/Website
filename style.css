@@ -1,0 +1,117 @@
+body{
+	height: 1500px
+
+}
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Fondamento', cursive;
+font-family: 'Galada', cursive;
+	
+}
+
+#nav1{
+	border: 1px solid green;
+	background-color: white;
+	border-bottom: 2px solid #4caf50;
+	position: sticky;
+}
+
+#nav2{
+	border: 1px solid black;
+	box-shadow: 2px 4px grey;
+	background-color: white;
+	position: absolute;
+	position:sticky;
+	top:0;
+
+	
+	
+
+
+}
+
+
+
+ul{
+	float: left;
+	list-style-type: none;
+
+}
+
+.item{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	padding-left: 0px;
+	font-weight: bold;
+
+
+}
+
+.item:hover{
+	background-color:#white;
+	color: green;
+}
+
+#container{
+
+	max-width: 1300px;
+	margin: auto;
+	background-color:#9e9e9e;
+	position: relative;
+	
+	
+	
+}
+
+#main{
+
+	border: 1px white solid;
+	width:60%;
+    height: 800px;
+	float: left;
+	background-color:#fafafa;
+	margin-left: 5%;
+	overflow-y: scroll;
+	
+
+
+
+}
+
+
+#Register{
+	border: 1px black solid;
+	width:28%;
+	height:70%;
+    float: left;
+	background-color: #eceff1;
+	margin-left:2%; 
+	position: fixed;
+	right: 5%;
+	
+
+}
+
+#Register button{
+	  width: 100%;
+	  height: 15%;
+  bottom: 100%;
+  border: 3px solid;
+  background-color: #4caf50;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+
+
+
+
+}
+
+#Register img{
+	width: 100%;
+	height: 90%;
+	background-image: cover;
+
+}
